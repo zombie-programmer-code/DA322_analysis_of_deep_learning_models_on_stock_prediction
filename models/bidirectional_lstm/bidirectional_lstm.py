@@ -1,4 +1,4 @@
-
+#Models suitable for predicting given 10, 30, 60 previous days data. There are 4 models for each type-the average of these 4 gives the prediction. 
 def bi_lstm(X_train, y_train, X_dev, y_dev, epochs=2, batch_size=128, first_layer=60):
     model = Sequential()
     model.add(Bidirectional(LSTM(units=first_layer, activation = 'tanh', input_shape=(X_train.shape[1], 1))))
