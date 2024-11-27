@@ -99,8 +99,7 @@ This repository explores and implements various **Machine Learning (ML)** and **
 ---
 
 ## Repository Structure
-- `models/`: Implementations of ML/DL models.  
-- `data/`: Preprocessed stock data and historical datasets.  
+- `models/`: Implementations of ML/DL models and pre-trained models.  
 - `notebooks/`: Jupyter notebooks for experiments and visualizations.  
 - `results/`: Tables and prediction plots comparing MAE across models and sectors.  
 
