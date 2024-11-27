@@ -1,4 +1,4 @@
-#Models suitable for predicting given 10, 30, 60 previous days data. There are 4 models for each type-the average of these 4 gives the prediction.
+#Models suitable for predicting given 10, 30 previous days data. There are 4 models for each type-the average of these 4 gives the prediction.
 def bilstm_gru_hybrid_stock_model(X_train, y_train, X_dev, y_dev, epochs=2, batch_size=128, first_layer=40):
     model = Sequential()
     model.add(Bidirectional(LSTM(units=first_layer, activation = 'tanh', return_sequences=True, input_shape=(X_train.shape[1], 1))))
