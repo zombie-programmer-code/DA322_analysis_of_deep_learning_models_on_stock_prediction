@@ -86,3 +86,7 @@ Refer to the `results/` folder for all images.
 - `results/`: Prediction plots comparing MAE across models and sectors.  
 - `datasets/`: csv files for the 5 indices
 
+## Youtube video link
+[Watch our project demonstration on YouTube](https://youtu.be/G-LPSFr-qWw)
+
+
