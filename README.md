@@ -1,6 +1,6 @@
 # Analysis of ML and DL models for the task of stock prediction
 
-# This repository contains the implementation and analysis of various Machine Learning (ML) and Deep Learning (DL) models for predicting stock prices. The project explores standard and novel approaches to identify the best-performing models for different sectors and indices.
+## This repository contains the implementation and analysis of various Machine Learning (ML) and Deep Learning (DL) models for predicting stock prices. The project explores standard and novel approaches to identify the best-performing models for different sectors and indices.
 
 ## Table of Contents
 - [Introduction](#introduction)
